@@ -18,7 +18,7 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v4
         with:
-          context: ./foosball
+          context: ./IS436-classwork-Foosball/foosball
           push: true
           tags: abel1119/is436-classwork-foosball:${{ github.run_number }}
 
