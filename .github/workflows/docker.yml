@@ -21,4 +21,3 @@ jobs:
           context: foosball/
           push: true
           tags: abel1119/foosball:${{ github.run_number }}
-
